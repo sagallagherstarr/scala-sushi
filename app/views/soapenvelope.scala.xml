@@ -1,0 +1,11 @@
+@(content: scala.xml.Node)
+
+
+
+
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/">
+<SOAP-ENV:Body>
+@content
+</SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
